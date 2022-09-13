@@ -1,0 +1,14 @@
+{
+  "app_name": "Weather",
+  "login": "Login",
+  "email_required": "Vous devez saisir une adresse email",
+  "password_required": "Vous devez saisir votre mot de passe",
+  "validate": "Valider",
+  "email": "Email",
+  "password" : "Mot de passe",
+  "welcome" : "Bienvenue",
+  "problem" : "Un problème est survenu",
+  "location_problem" : "Impossible de trouver votre position",
+  "use_location" : "Localisation",
+  "logout" : "Déconnexion"
+}
