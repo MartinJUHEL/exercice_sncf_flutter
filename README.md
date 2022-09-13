@@ -1,16 +1,10 @@
 # exercice_sncf
 
-A new Flutter project.
+Pour cet exercice, j'ai choisi d'utiliser la librairie Riverpod pour créer l'architecture MVVM de l'application.
+J'utilise également Riverpod pour injecter mes services dans mes viewsModel.
+J'ai crée un PageView pour afficher la méteo par jour.
 
-## Getting Started
+Pour le stockage du login j'utilise la librairie sharePreference.
+J'ai mis aussi un refreshIndicator pour forcer la récupération des données.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+J'ai ajouté la possibilité de récupérer la méteo sur la posisition de l'utilisateur. Le switch button dans le Drawer permet de passer de la localisation de l'utilisateur à celle de Paris.
